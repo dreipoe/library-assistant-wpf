@@ -45,20 +45,10 @@ namespace Library_Assistant
             Close();
         }
 
-        public void AddReader(object sender, RoutedEventArgs e)
-        {
-            
-        }
-
-        public void EditReader(object sender, RoutedEventArgs e)
-        {
-            
-        }
-
-        public void DeleteReader(object sender, RoutedEventArgs e)
-        {
-
-        }
+        //заглушки
+        public void AddReader(object sender, RoutedEventArgs e) { }
+        public void EditReader(object sender, RoutedEventArgs e) { }
+        public void DeleteReader(object sender, RoutedEventArgs e) { }
 
         public void Add(object sender, RoutedEventArgs e)
         {
@@ -98,7 +88,7 @@ namespace Library_Assistant
             });
 
             if (recordEdit.ShowDialog() == true) {
-                record = db.Records.First(p => p.Id == recordEdit.record.Id);
+                record = db.Records.Find(recordEdit.record.Id);
                 if (record != null)
                 {
                     record.ReaderId = recordEdit.record.Reader.Id;

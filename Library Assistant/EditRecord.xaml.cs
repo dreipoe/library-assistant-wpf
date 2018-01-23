@@ -16,13 +16,13 @@ namespace Library_Assistant
         public EditRecord(Record r)
         {
             InitializeComponent();
+            db = new LibContext();
 
             try
             {
                 db = new LibContext();
                 db.Readers.Load();
                 db.Cards.Load();
-                db.Books.Load();
             } catch (SqlException) {
                 MessageBox.Show(
                     "Потеряно подключение к базе данных.",

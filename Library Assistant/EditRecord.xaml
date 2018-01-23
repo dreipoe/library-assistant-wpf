@@ -40,7 +40,7 @@
         <TextBox Text="{Binding Reader.FIO}" Grid.Column="1" Grid.ColumnSpan="2" IsReadOnly="True"/>
         <ComboBox x:Name="bookCombo" Text="{Binding Path=Card.Book.Name}" Grid.Row="1" Grid.Column="1" IsReadOnly="False" IsEditable="True"
                   StaysOpenOnEdit="True" SelectionChanged="bookComboChange"/>
-        <ComboBox x:Name="cardCombo" Text="{Binding Path=Card.Id}" Grid.Row="2" Grid.Column="1" IsReadOnly="False" IsEditable="True"
+        <ComboBox x:Name="cardCombo" Text="{Binding Path=CardId}" Grid.Row="2" Grid.Column="1" IsReadOnly="False" IsEditable="True"
                   StaysOpenOnEdit="True"/>
         <DatePicker x:Name="dpGave" Text="{Binding Gave, ConverterCulture=ru}" Grid.Row="3" Grid.Column="1" IsDropDownOpen="False" SelectedDateFormat="Short"/>
         <DatePicker x:Name="dpHaveToReturn" Text="{Binding _Return, ConverterCulture=ru}" Grid.Row="4" Grid.Column="1" IsDropDownOpen="False" SelectedDateFormat="Short"/>
