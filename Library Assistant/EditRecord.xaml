@@ -1,0 +1,53 @@
+﻿<Window x:Class="Library_Assistant.EditRecord"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Добавить запись о выдаче книги" Height="300" Width="300">
+    <Window.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="Margin" Value="8" />
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="Margin" Value="8" />
+        </Style>
+        <Style TargetType="ComboBox">
+            <Setter Property="Margin" Value="8" />
+        </Style>
+        <Style TargetType="ListBox">
+            <Setter Property="Margin" Value="8" />
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="120" />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <TextBlock Text="ФИО" />
+        <TextBlock Text="Книга" Grid.Row="1"/>
+        <TextBlock Text="Номер инвентаря" Grid.Row="2"/>
+        <TextBlock Text="Дата выдачи" Grid.Row="3"/>
+        <TextBlock Text="Срок возврата" Grid.Row="4"/>
+        <TextBlock Text="Возвращена" Grid.Row="5"/>
+
+        <TextBox Text="{Binding Reader.FIO}" Grid.Column="1" Grid.ColumnSpan="2" IsReadOnly="True"/>
+        <ComboBox x:Name="bookCombo" Text="{Binding Path=Card.Book.Name}" Grid.Row="1" Grid.Column="1" IsReadOnly="False" IsEditable="True"
+                  StaysOpenOnEdit="True" SelectionChanged="bookComboChange"/>
+        <ComboBox x:Name="cardCombo" Text="{Binding Path=Card.Id}" Grid.Row="2" Grid.Column="1" IsReadOnly="False" IsEditable="True"
+                  StaysOpenOnEdit="True"/>
+        <DatePicker x:Name="dpGave" Text="{Binding Gave, ConverterCulture=ru}" Grid.Row="3" Grid.Column="1" IsDropDownOpen="False" SelectedDateFormat="Short"/>
+        <DatePicker x:Name="dpHaveToReturn" Text="{Binding _Return, ConverterCulture=ru}" Grid.Row="4" Grid.Column="1" IsDropDownOpen="False" SelectedDateFormat="Short"/>
+        <DatePicker x:Name="dpReturned" Text="{Binding Returned, ConverterCulture=ru}" Grid.Row="5" Grid.Column="1" IsDropDownOpen="False" SelectedDateFormat="Short" DisplayDateStart="{Binding DateTime.Today}"/>
+        <StackPanel Grid.Row="6" Grid.ColumnSpan="2" HorizontalAlignment="Center" Orientation="Horizontal">
+            <Button IsDefault="True" MinWidth="60" Margin="5" Click="Accept">OK</Button>
+            <Button IsCancel="True" MinWidth="60" Margin="5">Отмена</Button>
+        </StackPanel>
+    </Grid>
+</Window>

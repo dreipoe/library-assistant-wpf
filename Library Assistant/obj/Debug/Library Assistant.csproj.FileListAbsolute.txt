@@ -1,0 +1,44 @@
+\\LENOVO-PC\docs\studing\Coding\Library Assistant\Library Assistant\bin\Debug\Library Assistant.exe.config
+\\LENOVO-PC\docs\studing\Coding\Library Assistant\Library Assistant\obj\Debug\EditReader.baml
+\\LENOVO-PC\docs\studing\Coding\Library Assistant\Library Assistant\obj\Debug\MainWindow.baml
+\\LENOVO-PC\docs\studing\Coding\Library Assistant\Library Assistant\obj\Debug\EditReader.g.cs
+\\LENOVO-PC\docs\studing\Coding\Library Assistant\Library Assistant\obj\Debug\MainWindow.g.cs
+\\LENOVO-PC\docs\studing\Coding\Library Assistant\Library Assistant\obj\Debug\App.g.cs
+\\LENOVO-PC\docs\studing\Coding\Library Assistant\Library Assistant\obj\Debug\Library Assistant_MarkupCompile.cache
+\\LENOVO-PC\docs\studing\Coding\Library Assistant\Library Assistant\obj\Debug\Library Assistant.g.resources
+\\LENOVO-PC\docs\studing\Coding\Library Assistant\Library Assistant\obj\Debug\Library_Assistant.Properties.Resources.resources
+\\LENOVO-PC\docs\studing\Coding\Library Assistant\Library Assistant\obj\Debug\Library Assistant.csproj.GenerateResource.Cache
+\\LENOVO-PC\docs\studing\Coding\Library Assistant\Library Assistant\bin\Debug\Library Assistant.exe
+\\LENOVO-PC\docs\studing\Coding\Library Assistant\Library Assistant\bin\Debug\Library Assistant.pdb
+\\LENOVO-PC\docs\studing\Coding\Library Assistant\Library Assistant\bin\Debug\EntityFramework.dll
+\\LENOVO-PC\docs\studing\Coding\Library Assistant\Library Assistant\bin\Debug\EntityFramework.SqlServer.dll
+\\LENOVO-PC\docs\studing\Coding\Library Assistant\Library Assistant\bin\Debug\EntityFramework.xml
+\\LENOVO-PC\docs\studing\Coding\Library Assistant\Library Assistant\bin\Debug\EntityFramework.SqlServer.xml
+\\LENOVO-PC\docs\studing\Coding\Library Assistant\Library Assistant\obj\Debug\Library Assistant.exe
+\\LENOVO-PC\docs\studing\Coding\Library Assistant\Library Assistant\obj\Debug\Library Assistant.pdb
+\\LENOVO-PC\docs\studing\Coding\Library Assistant\Library Assistant\obj\Debug\Library Assistant.csprojResolveAssemblyReference.cache
+\\LENOVO-PC\docs\studing\Coding\Library Assistant\Library Assistant\obj\Debug\EditRecords.baml
+\\LENOVO-PC\docs\studing\Coding\Library Assistant\Library Assistant\obj\Debug\EditRecords.g.cs
+\\LENOVO-PC\docs\studing\Coding\Library Assistant\Library Assistant\obj\Debug\EditRecord.baml
+\\LENOVO-PC\docs\studing\Coding\Library Assistant\Library Assistant\obj\Debug\EditRecord.g.cs
+Z:\studing\Coding\Library Assistant\Library Assistant\bin\Debug\Library Assistant.exe.config
+Z:\studing\Coding\Library Assistant\Library Assistant\obj\Debug\Library Assistant.exe
+Z:\studing\Coding\Library Assistant\Library Assistant\obj\Debug\Library Assistant.pdb
+Z:\studing\Coding\Library Assistant\Library Assistant\bin\Debug\Library Assistant.exe
+Z:\studing\Coding\Library Assistant\Library Assistant\bin\Debug\Library Assistant.pdb
+Z:\studing\Coding\Library Assistant\Library Assistant\bin\Debug\EntityFramework.dll
+Z:\studing\Coding\Library Assistant\Library Assistant\bin\Debug\EntityFramework.SqlServer.dll
+Z:\studing\Coding\Library Assistant\Library Assistant\bin\Debug\EntityFramework.xml
+Z:\studing\Coding\Library Assistant\Library Assistant\bin\Debug\EntityFramework.SqlServer.xml
+Z:\studing\Coding\Library Assistant\Library Assistant\obj\Debug\Library Assistant.csprojResolveAssemblyReference.cache
+Z:\studing\Coding\Library Assistant\Library Assistant\obj\Debug\EditReader.baml
+Z:\studing\Coding\Library Assistant\Library Assistant\obj\Debug\EditRecord.baml
+Z:\studing\Coding\Library Assistant\Library Assistant\obj\Debug\MainWindow.baml
+Z:\studing\Coding\Library Assistant\Library Assistant\obj\Debug\EditReader.g.cs
+Z:\studing\Coding\Library Assistant\Library Assistant\obj\Debug\EditRecord.g.cs
+Z:\studing\Coding\Library Assistant\Library Assistant\obj\Debug\MainWindow.g.cs
+Z:\studing\Coding\Library Assistant\Library Assistant\obj\Debug\App.g.cs
+Z:\studing\Coding\Library Assistant\Library Assistant\obj\Debug\Library Assistant_MarkupCompile.cache
+Z:\studing\Coding\Library Assistant\Library Assistant\obj\Debug\Library Assistant.g.resources
+Z:\studing\Coding\Library Assistant\Library Assistant\obj\Debug\Library_Assistant.Properties.Resources.resources
+Z:\studing\Coding\Library Assistant\Library Assistant\obj\Debug\Library Assistant.csproj.GenerateResource.Cache

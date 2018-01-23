@@ -1,0 +1,57 @@
+﻿<Window x:Class="Library_Assistant.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Library Assistant v.0.1" Height="480" Width="640">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="21"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition />
+            <RowDefinition Height="50"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Menu Height="20" VerticalAlignment="Top">
+            <MenuItem Header="Файл">
+                <MenuItem Header="Выход" Click="miExit"/>
+            </MenuItem>
+            <MenuItem Header="Информация">
+                <MenuItem Header="Заказы"/>
+                <MenuItem Header="Книги"/>
+                <MenuItem Header="Картотека"/>
+                <MenuItem Header="Пункты"/>
+            </MenuItem>
+            <MenuItem Header="Справка">
+                <MenuItem Header="О программе" Click="About"/>
+            </MenuItem>
+        </Menu>
+        <DataGrid AutoGenerateColumns="False" x:Name="readerGrid" Grid.Row="2" 
+                  IsReadOnly="True" SelectionChanged="readerGridChange">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Id}" Header="№" Width="25"/>
+                <DataGridTextColumn Binding="{Binding FIO}" Header="ФИО" Width="200"/>
+                <DataGridTextColumn Binding="{Binding Reg, StringFormat={}{0:d}, ConverterCulture=ru}" Header="Дата регистрации" Width="120" />
+                <DataGridTextColumn Binding="{Binding Quit, StringFormat={}{0:d}, ConverterCulture=ru}" Header="Дата открепления" Width="120" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <DataGrid AutoGenerateColumns="False" x:Name="recordGrid" Grid.Row="4" 
+                  IsReadOnly="True">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Id}" Header="№" Width="40"/>
+                <DataGridTextColumn Binding="{Binding Card.Book.Name}" Header="Книга" Width="120"/>
+                <DataGridTextColumn Binding="{Binding Gave, StringFormat={}{0:d}, ConverterCulture=ru}" Header="Дата выдачи" Width="120"/>
+                <DataGridTextColumn Binding="{Binding _Return, StringFormat={}{0:d}, ConverterCulture=ru}" Header="Срок сдачи" Width="120"/>
+                <DataGridTextColumn Binding="{Binding Returned, StringFormat={}{0:d}, ConverterCulture=ru}" Header="Возвращена" Width="120"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Left">
+            <Button Content="Добавить" Margin="10" Click="AddReader"/>
+            <Button Content="Изменить" Margin="10" Click="EditReader"/>
+            <Button Content="Удалить" Margin="10" Click="DeleteReader"/>
+        </StackPanel>
+        <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Left">
+            <Button Content="Добавить" Margin="10" Click="Add"/>
+            <Button Content="Изменить" Margin="10" Click="Edit"/>
+            <Button Content="Удалить" Margin="10" Click="Delete"/>
+        </StackPanel>
+    </Grid>
+</Window>
