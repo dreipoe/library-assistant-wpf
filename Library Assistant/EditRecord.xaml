@@ -1,7 +1,7 @@
 ﻿<Window x:Class="Library_Assistant.EditRecord"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Добавить запись о выдаче книги" Height="300" Width="300">
+        Title="Добавить запись" Height="300" Width="300">
     <Window.Resources>
         <Style TargetType="TextBlock">
             <Setter Property="Margin" Value="8" />
@@ -39,9 +39,9 @@
 
         <TextBox Text="{Binding Reader.FIO}" Grid.Column="1" Grid.ColumnSpan="2" IsReadOnly="True"/>
         <ComboBox x:Name="bookCombo" Text="{Binding Path=Card.Book.Name}" Grid.Row="1" Grid.Column="1" IsReadOnly="False" IsEditable="True"
-                  StaysOpenOnEdit="True" SelectionChanged="bookComboChange"/>
+            StaysOpenOnEdit="True" SelectionChanged="bookComboChange"/>
         <ComboBox x:Name="cardCombo" Text="{Binding Path=CardId}" Grid.Row="2" Grid.Column="1" IsReadOnly="False" IsEditable="True"
-                  StaysOpenOnEdit="True"/>
+            StaysOpenOnEdit="True"/>
         <DatePicker x:Name="dpGave" Text="{Binding Gave, ConverterCulture=ru}" Grid.Row="3" Grid.Column="1" IsDropDownOpen="False" SelectedDateFormat="Short"/>
         <DatePicker x:Name="dpHaveToReturn" Text="{Binding _Return, ConverterCulture=ru}" Grid.Row="4" Grid.Column="1" IsDropDownOpen="False" SelectedDateFormat="Short"/>
         <DatePicker x:Name="dpReturned" Text="{Binding Returned, ConverterCulture=ru}" Grid.Row="5" Grid.Column="1" IsDropDownOpen="False" SelectedDateFormat="Short" DisplayDateStart="{Binding DateTime.Today}"/>

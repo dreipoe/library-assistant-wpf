@@ -11,32 +11,22 @@ namespace Library_Assistant
     public partial class EditRecord : Window
     {
         public Record record { get; set; }
+        public Book book { get; set; }
         public LibContext db;
 
         public EditRecord(Record r)
         {
             InitializeComponent();
-            db = new LibContext();
 
-            try
-            {
-                db = new LibContext();
-                db.Readers.Load();
-                db.Cards.Load();
-            } catch (SqlException) {
-                MessageBox.Show(
-                    "Потеряно подключение к базе данных.",
-                    "Library Assistant",
-                    MessageBoxButton.OK,
-                    MessageBoxImage.Error
-                );
-                Close();
-            }
+            db = new LibContext();
+            db.Readers.Load();
+            db.Books.Load();
+            db.Cards.Load();
 
             record = r;
             DataContext = record;
 
-            bookCombo.ItemsSource = db.Books.Select(p => p.Name).ToList();
+            bookCombo.ItemsSource = db.Books.ToList();
         }
 
         //все необходимые поля заполнены?
@@ -48,8 +38,9 @@ namespace Library_Assistant
         private void bookComboChange(object sender, SelectionChangedEventArgs e)
         {
             string bookName = (string) bookCombo.SelectedItem;
-            int bookId = db.Books.First(p => p.Name == bookName).Id;
-            cardCombo.ItemsSource = db.Cards.Where(p => p.BookId == bookId).Select(p => p.Id).ToList();
+            book = db.Books.First(p => p.Name == bookName);
+            record.Card.Book = book;
+            cardCombo.ItemsSource = db.Cards.Where(p => p.BookId == book.Id).Select(p => p.Id).ToList();
         }
     }
 }

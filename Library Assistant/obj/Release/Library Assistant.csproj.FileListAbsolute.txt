@@ -1,0 +1,21 @@
+Z:\studing\Coding\Library Assistant\Library Assistant\bin\Release\Library Assistant.exe.config
+Z:\studing\Coding\Library Assistant\Library Assistant\bin\Release\Library Assistant.exe
+Z:\studing\Coding\Library Assistant\Library Assistant\bin\Release\Library Assistant.pdb
+Z:\studing\Coding\Library Assistant\Library Assistant\bin\Release\EntityFramework.dll
+Z:\studing\Coding\Library Assistant\Library Assistant\bin\Release\EntityFramework.SqlServer.dll
+Z:\studing\Coding\Library Assistant\Library Assistant\bin\Release\EntityFramework.xml
+Z:\studing\Coding\Library Assistant\Library Assistant\bin\Release\EntityFramework.SqlServer.xml
+Z:\studing\Coding\Library Assistant\Library Assistant\obj\Release\Library Assistant.csprojResolveAssemblyReference.cache
+Z:\studing\Coding\Library Assistant\Library Assistant\obj\Release\EditReader.baml
+Z:\studing\Coding\Library Assistant\Library Assistant\obj\Release\EditRecord.baml
+Z:\studing\Coding\Library Assistant\Library Assistant\obj\Release\MainWindow.baml
+Z:\studing\Coding\Library Assistant\Library Assistant\obj\Release\EditReader.g.cs
+Z:\studing\Coding\Library Assistant\Library Assistant\obj\Release\EditRecord.g.cs
+Z:\studing\Coding\Library Assistant\Library Assistant\obj\Release\MainWindow.g.cs
+Z:\studing\Coding\Library Assistant\Library Assistant\obj\Release\App.g.cs
+Z:\studing\Coding\Library Assistant\Library Assistant\obj\Release\Library Assistant_MarkupCompile.cache
+Z:\studing\Coding\Library Assistant\Library Assistant\obj\Release\Library Assistant.g.resources
+Z:\studing\Coding\Library Assistant\Library Assistant\obj\Release\Library_Assistant.Properties.Resources.resources
+Z:\studing\Coding\Library Assistant\Library Assistant\obj\Release\Library Assistant.csproj.GenerateResource.Cache
+Z:\studing\Coding\Library Assistant\Library Assistant\obj\Release\Library Assistant.exe
+Z:\studing\Coding\Library Assistant\Library Assistant\obj\Release\Library Assistant.pdb

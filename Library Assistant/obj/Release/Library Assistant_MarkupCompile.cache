@@ -4,15 +4,15 @@
 winexe
 C#
 .cs
-Z:\studing\Coding\Library Assistant\Library Assistant\obj\Debug\
+Z:\studing\Coding\Library Assistant\Library Assistant\obj\Release\
 Library_Assistant
 none
 false
-DEBUG;TRACE
+TRACE
 Z:\studing\Coding\Library Assistant\Library Assistant\App.xaml
 3-1998747938
 
-18-1405066763
+14360502246
 151633019448
 EditReader.xaml;EditRecord.xaml;MainWindow.xaml;
 
