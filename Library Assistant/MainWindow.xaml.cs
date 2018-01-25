@@ -64,6 +64,8 @@ namespace Library_Assistant
                 record._Return = (DateTime)recordEdit.dpHaveToReturn.SelectedDate;
                 record.Returned = recordEdit.dpReturned.SelectedDate;
 
+                record.Card = db.Cards.Find(record.CardId);
+
                 db.Records.Add(record);
                 db.SaveChanges();
                 readerGridChange(readerGrid, null);
@@ -96,6 +98,8 @@ namespace Library_Assistant
                     record.Gave = (DateTime)recordEdit.dpGave.SelectedDate;
                     record._Return = (DateTime)recordEdit.dpHaveToReturn.SelectedDate;
                     record.Returned = recordEdit.dpReturned.SelectedDate;
+
+                    record.Card = db.Cards.Find(record.CardId);
 
                     db.Entry(record).State = EntityState.Modified;
                     db.SaveChanges();
