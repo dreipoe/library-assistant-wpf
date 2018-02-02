@@ -1,0 +1,21 @@
+Z:\studing\WinForm\Library Assistant\Library Assistant\bin\x64\Release\Library Assistant.exe.config
+Z:\studing\WinForm\Library Assistant\Library Assistant\bin\x64\Release\Library Assistant.exe
+Z:\studing\WinForm\Library Assistant\Library Assistant\bin\x64\Release\Library Assistant.pdb
+Z:\studing\WinForm\Library Assistant\Library Assistant\bin\x64\Release\EntityFramework.dll
+Z:\studing\WinForm\Library Assistant\Library Assistant\bin\x64\Release\EntityFramework.SqlServer.dll
+Z:\studing\WinForm\Library Assistant\Library Assistant\bin\x64\Release\EntityFramework.xml
+Z:\studing\WinForm\Library Assistant\Library Assistant\bin\x64\Release\EntityFramework.SqlServer.xml
+Z:\studing\WinForm\Library Assistant\Library Assistant\obj\x64\Release\Library Assistant.csprojResolveAssemblyReference.cache
+Z:\studing\WinForm\Library Assistant\Library Assistant\obj\x64\Release\EditReader.baml
+Z:\studing\WinForm\Library Assistant\Library Assistant\obj\x64\Release\EditRecord.baml
+Z:\studing\WinForm\Library Assistant\Library Assistant\obj\x64\Release\MainWindow.baml
+Z:\studing\WinForm\Library Assistant\Library Assistant\obj\x64\Release\EditReader.g.cs
+Z:\studing\WinForm\Library Assistant\Library Assistant\obj\x64\Release\EditRecord.g.cs
+Z:\studing\WinForm\Library Assistant\Library Assistant\obj\x64\Release\MainWindow.g.cs
+Z:\studing\WinForm\Library Assistant\Library Assistant\obj\x64\Release\App.g.cs
+Z:\studing\WinForm\Library Assistant\Library Assistant\obj\x64\Release\Library Assistant_MarkupCompile.cache
+Z:\studing\WinForm\Library Assistant\Library Assistant\obj\x64\Release\Library Assistant.g.resources
+Z:\studing\WinForm\Library Assistant\Library Assistant\obj\x64\Release\Library_Assistant.Properties.Resources.resources
+Z:\studing\WinForm\Library Assistant\Library Assistant\obj\x64\Release\Library Assistant.csproj.GenerateResource.Cache
+Z:\studing\WinForm\Library Assistant\Library Assistant\obj\x64\Release\Library Assistant.exe
+Z:\studing\WinForm\Library Assistant\Library Assistant\obj\x64\Release\Library Assistant.pdb

@@ -19,3 +19,48 @@ Z:\studing\Coding\Library Assistant\Library Assistant\obj\Release\Library_Assist
 Z:\studing\Coding\Library Assistant\Library Assistant\obj\Release\Library Assistant.csproj.GenerateResource.Cache
 Z:\studing\Coding\Library Assistant\Library Assistant\obj\Release\Library Assistant.exe
 Z:\studing\Coding\Library Assistant\Library Assistant\obj\Release\Library Assistant.pdb
+D:\Users\user\docs\studing\Coding\Library Assistant\Library Assistant\bin\Release\Library Assistant.exe.config
+D:\Users\user\docs\studing\Coding\Library Assistant\Library Assistant\obj\Release\Library Assistant.exe
+D:\Users\user\docs\studing\Coding\Library Assistant\Library Assistant\obj\Release\Library Assistant.pdb
+D:\Users\user\docs\studing\Coding\Library Assistant\Library Assistant\bin\Release\Library Assistant.exe
+D:\Users\user\docs\studing\Coding\Library Assistant\Library Assistant\bin\Release\Library Assistant.pdb
+D:\Users\user\docs\studing\Coding\Library Assistant\Library Assistant\bin\Release\EntityFramework.dll
+D:\Users\user\docs\studing\Coding\Library Assistant\Library Assistant\bin\Release\EntityFramework.SqlServer.dll
+D:\Users\user\docs\studing\Coding\Library Assistant\Library Assistant\bin\Release\EntityFramework.xml
+D:\Users\user\docs\studing\Coding\Library Assistant\Library Assistant\bin\Release\EntityFramework.SqlServer.xml
+D:\Users\user\docs\studing\Coding\Library Assistant\Library Assistant\obj\Release\Library Assistant.csprojResolveAssemblyReference.cache
+D:\Users\user\docs\studing\Coding\Library Assistant\Library Assistant\obj\Release\EditReader.baml
+D:\Users\user\docs\studing\Coding\Library Assistant\Library Assistant\obj\Release\EditRecord.baml
+D:\Users\user\docs\studing\Coding\Library Assistant\Library Assistant\obj\Release\MainWindow.baml
+D:\Users\user\docs\studing\Coding\Library Assistant\Library Assistant\obj\Release\EditReader.g.cs
+D:\Users\user\docs\studing\Coding\Library Assistant\Library Assistant\obj\Release\EditRecord.g.cs
+D:\Users\user\docs\studing\Coding\Library Assistant\Library Assistant\obj\Release\MainWindow.g.cs
+D:\Users\user\docs\studing\Coding\Library Assistant\Library Assistant\obj\Release\App.g.cs
+D:\Users\user\docs\studing\Coding\Library Assistant\Library Assistant\obj\Release\Library Assistant_MarkupCompile.cache
+D:\Users\user\docs\studing\Coding\Library Assistant\Library Assistant\obj\Release\Library Assistant.g.resources
+D:\Users\user\docs\studing\Coding\Library Assistant\Library Assistant\obj\Release\Library_Assistant.Properties.Resources.resources
+D:\Users\user\docs\studing\Coding\Library Assistant\Library Assistant\obj\Release\Library Assistant.csproj.GenerateResource.Cache
+D:\Users\user\docs\studing\WinForm\Library Assistant\Library Assistant\bin\Release\Library Assistant.exe.config
+D:\Users\user\docs\studing\WinForm\Library Assistant\Library Assistant\obj\Release\Library Assistant.exe
+D:\Users\user\docs\studing\WinForm\Library Assistant\Library Assistant\obj\Release\Library Assistant.pdb
+D:\Users\user\docs\studing\WinForm\Library Assistant\Library Assistant\bin\Release\Library Assistant.exe
+D:\Users\user\docs\studing\WinForm\Library Assistant\Library Assistant\bin\Release\Library Assistant.pdb
+D:\Users\user\docs\studing\WinForm\Library Assistant\Library Assistant\bin\Release\EntityFramework.dll
+D:\Users\user\docs\studing\WinForm\Library Assistant\Library Assistant\bin\Release\EntityFramework.SqlServer.dll
+D:\Users\user\docs\studing\WinForm\Library Assistant\Library Assistant\bin\Release\EntityFramework.xml
+D:\Users\user\docs\studing\WinForm\Library Assistant\Library Assistant\bin\Release\EntityFramework.SqlServer.xml
+D:\Users\user\docs\studing\WinForm\Library Assistant\Library Assistant\obj\Release\Library Assistant.csprojResolveAssemblyReference.cache
+D:\Users\user\docs\studing\WinForm\Library Assistant\Library Assistant\obj\Release\EditReader.baml
+D:\Users\user\docs\studing\WinForm\Library Assistant\Library Assistant\obj\Release\EditRecord.baml
+D:\Users\user\docs\studing\WinForm\Library Assistant\Library Assistant\obj\Release\MainWindow.baml
+D:\Users\user\docs\studing\WinForm\Library Assistant\Library Assistant\obj\Release\EditReader.g.cs
+D:\Users\user\docs\studing\WinForm\Library Assistant\Library Assistant\obj\Release\EditRecord.g.cs
+D:\Users\user\docs\studing\WinForm\Library Assistant\Library Assistant\obj\Release\MainWindow.g.cs
+D:\Users\user\docs\studing\WinForm\Library Assistant\Library Assistant\obj\Release\App.g.cs
+D:\Users\user\docs\studing\WinForm\Library Assistant\Library Assistant\obj\Release\Library Assistant_MarkupCompile.cache
+D:\Users\user\docs\studing\WinForm\Library Assistant\Library Assistant\obj\Release\Library Assistant.g.resources
+D:\Users\user\docs\studing\WinForm\Library Assistant\Library Assistant\obj\Release\Library_Assistant.Properties.Resources.resources
+D:\Users\user\docs\studing\WinForm\Library Assistant\Library Assistant\obj\Release\Library Assistant.csproj.GenerateResource.Cache
+Z:\studing\WinForm\Library Assistant\Library Assistant\bin\Release\Library Assistant.exe.config
+Z:\studing\WinForm\Library Assistant\Library Assistant\obj\Release\Library Assistant.exe
+Z:\studing\WinForm\Library Assistant\Library Assistant\obj\Release\Library Assistant.pdb
